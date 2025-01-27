@@ -1,4 +1,4 @@
-package com.generation.farmacia;
+package com.generation.farmacia.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,8 +8,8 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "tb_temas")
-public class Tema {
+@Table(name = "tb_categoria")
+public class Categoria {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
